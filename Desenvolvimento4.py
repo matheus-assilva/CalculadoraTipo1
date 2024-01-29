@@ -1,3 +1,4 @@
+# Calculadora
 def calculadora(num1, num2, operacao):
     if operacao == 1:
         return num1 + num2
@@ -6,7 +7,7 @@ def calculadora(num1, num2, operacao):
     elif operacao == 3:
         return num1 * num2
     elif operacao == 4:
-        if num2 != 0:  # Evitar divisão por zero
+        if num2 != 0:
             return num1 / num2
         else:
             print("Erro: Divisão por zero!")
